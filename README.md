@@ -1,3 +1,12 @@
+# This repository has been archived
+
+This project has been merged into the MockServer monorepo:
+**https://github.com/mock-server/mockserver-monorepo**
+
+The code now lives in the `mockserver-client-python/` subdirectory of the monorepo.
+
+All new issues and pull requests should be filed against the monorepo.
+
 # mockserver-client
 MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS with clients written in Java, JavaScript and Ruby and a simple REST API (as shown below).  MockServer Proxy is a proxy that introspects all proxied traffic including encrypted SSL traffic and supports Port Forwarding, Web Proxying (i.e. HTTP proxy), HTTPS Tunneling Proxying (using HTTP CONNECT) and SOCKS Proxying (i.e. dynamic port forwarding).  Both MockServer and the MockServer Proxy record all received requests so that it is possible to verify exactly what requests have been sent by the system under test.
 
